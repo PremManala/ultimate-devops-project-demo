@@ -14,7 +14,6 @@ COPY ./pb ./proto
 RUN chmod +x ./gradlew
 RUN ./gradlew installDist -PprotoSourceDir=./proto
 
-#####################################################
 
 FROM eclipse-temurin:21-jre
 
